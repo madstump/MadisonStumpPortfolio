@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Madison Stump projects portfolio: web design, curriculum, game design, cinematography, storytelling, coding, and creative technology." />
+  <title>Projects | Madison Stump Forest Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="progress-bar" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Madison Stump home">
+        <span class="brand-mark">▲</span>
+        <span class="brand-text"><span class="brand-name">Madison Stump</span><span class="brand-subtitle">Forest Portfolio</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
+      <nav class="trail-nav" id="site-navigation" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="projects.html">Projects</a>
+        <a href="showcase.html">Showcase</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero compact">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">🌲 Project clearing</p>
+        <h1 class="page-title">A place for everything I <span>build, film, teach, and imagine.</span></h1>
+        <p class="lead">Use this page as a flexible project library. It includes filterable cards for teaching artifacts, coding projects, game design, creative media, writing, and future hobbies or professional work.</p>
+        <div class="anchor-buttons">
+          <a class="small-button" href="#project-grid">Project cards</a>
+          <a class="small-button" href="#creative-media">Creative media</a>
+          <a class="small-button" href="#hobby-placeholders">Hobby placeholders</a>
+          <a class="small-button" href="showcase.html#embedded-work">Embedded work</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="project-grid">
+      <div class="section-header reveal">
+        <div>
+          <p class="section-kicker">Filter the forest</p>
+          <h2>Project library</h2>
+          <p class="section-intro">Click a category to filter the cards. Replace the placeholder images, descriptions, and buttons with your strongest work samples.</p>
+        </div>
+      </div>
+
+      <div class="filter-bar reveal" role="group" aria-label="Project filters">
+        <button class="filter-button active" type="button" data-filter="all">All</button>
+        <button class="filter-button" type="button" data-filter="teaching">Teaching</button>
+        <button class="filter-button" type="button" data-filter="coding">Coding</button>
+        <button class="filter-button" type="button" data-filter="game">Game Design</button>
+        <button class="filter-button" type="button" data-filter="media">Media</button>
+        <button class="filter-button" type="button" data-filter="writing">Writing</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal" data-category="teaching coding">
+          <img src="assets/project-placeholder.svg" alt="Placeholder for HTML and CSS curriculum project" />
+          <div class="project-body">
+            <h3>HTML/CSS Portfolio Unit</h3>
+            <p>A web design unit where students plan, code, style, revise, and publish beginner-friendly websites while learning real HTML/CSS structure.</p>
+            <div class="tag-list"><span class="tag">Teaching</span><span class="tag">HTML/CSS</span></div>
+            <div class="button-row"><a class="small-button" href="curriculum.html#web-design">Curriculum</a><a class="small-button" href="showcase.html#slides-embed">Embed</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="game teaching" id="game-design-projects">
+          <img src="assets/project-placeholder.svg" alt="Placeholder for game design demo project" />
+          <div class="project-body">
+            <h3>Interactive Google Slides Game Demo</h3>
+            <p>A project where students design a tutorial or first level using clickable objects, custom visuals, story setup, and game-like navigation.</p>
+            <div class="tag-list"><span class="tag">Game Design</span><span class="tag">Slides</span></div>
+            <div class="button-row"><a class="small-button" href="curriculum.html#game-artifacts">Curriculum</a><a class="small-button" href="showcase.html#slides-embed">Embed</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="coding technical" id="technical-projects">
+          <img src="assets/project-placeholder.svg" alt="Placeholder for coding project" />
+          <div class="project-body">
+            <h3>Code + Automation Tools</h3>
+            <p>Space for web tools, JavaScript interactions, Google Sheets formulas, autograders, Python activities, and workflow helpers.</p>
+            <div class="tag-list"><span class="tag">Coding</span><span class="tag">Systems</span></div>
+            <div class="button-row"><a class="small-button" href="showcase.html#docs-gallery">Add docs</a><a class="small-button" href="#">Add GitHub</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="media writing" id="creative-media">
+          <img src="assets/project-placeholder.svg" alt="Placeholder for video or commentary project" />
+          <div class="project-body">
+            <h3>Commentary Video Concepts</h3>
+            <p>Scripts, video essay ideas, presentation visuals, humor-driven research, self-improvement topics, and cinematic commentary projects.</p>
+            <div class="tag-list"><span class="tag">Media</span><span class="tag">Writing</span></div>
+            <div class="button-row"><a class="small-button" href="showcase.html#video-embed">Add video</a><a class="small-button" href="showcase.html#doc-embed">Add script</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="writing game">
+          <img src="assets/project-placeholder.svg" alt="Placeholder for creative writing or game narrative project" />
+          <div class="project-body">
+            <h3>Story + Game Narrative Work</h3>
+            <p>Historical fiction, game worlds, branching paths, string-of-pearls narratives, character planning, and immersive worldbuilding.</p>
+            <div class="tag-list"><span class="tag">Writing</span><span class="tag">Narrative</span></div>
+            <div class="button-row"><a class="small-button" href="showcase.html#doc-embed">Add writing</a><a class="small-button" href="#">Add sample</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="teaching media">
+          <img src="assets/project-placeholder.svg" alt="Placeholder for slide deck or classroom presentation" />
+          <div class="project-body">
+            <h3>Highly Visual Slide Decks</h3>
+            <p>Dark academia, forest, game-inspired, and high-visual teaching presentations designed for short mini-lessons and student engagement.</p>
+            <div class="tag-list"><span class="tag">Slides</span><span class="tag">Design</span></div>
+            <div class="button-row"><a class="small-button" href="showcase.html#slides-embed">Add deck</a><a class="small-button" href="curriculum.html#curriculum-artifacts">Curriculum</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="hobby-placeholders">
+      <div class="section-header reveal">
+        <div>
+          <p class="section-kicker">Future clearings</p>
+          <h2>Editable hobby/project sections</h2>
+          <p class="section-intro">These sections are intentionally open-ended so you can add more personal and creative work as your portfolio grows.</p>
+        </div>
+      </div>
+      <div class="grid-3">
+        <article class="card reveal">
+          <div class="icon-badge">🎮</div>
+          <h3>Game design</h3>
+          <p>Add board/card games, Unity prototypes, Google Slides demos, pixel art, story structures, mechanics, or playtest notes.</p>
+          <a class="small-button" href="showcase.html#image-gallery">Add images</a>
+        </article>
+        <article class="card reveal">
+          <div class="icon-badge">🎥</div>
+          <h3>Cinematography + video</h3>
+          <p>Add clips, thumbnails, scripts, presentation decks, visual inspiration boards, or finished YouTube/commentary work.</p>
+          <a class="small-button" href="showcase.html#video-embed">Add videos</a>
+        </article>
+        <article class="card reveal">
+          <div class="icon-badge">✍</div>
+          <h3>Writing + storytelling</h3>
+          <p>Add novel excerpts, character notes, worldbuilding samples, blog posts, video scripts, or narrative design examples.</p>
+          <a class="small-button" href="showcase.html#doc-embed">Add docs</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p><strong>Madison Stump</strong> • Surfside Beach, SC</p>
+        <p>Email: <a href="mailto:mads8828@gmail.com">mads8828@gmail.com</a> • Phone: <a href="tel:17246798828">724-679-8828</a></p>
+        <p>Published April 2026</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="showcase.html">Showcase</a>
+      </div>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
