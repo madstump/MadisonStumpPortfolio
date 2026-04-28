@@ -1,5 +1,4 @@
-# MadisonStumpPortfolio
-# Madison Stump Forest Portfolio Website
+# Madison Stump Portfolio Website
 
 This is a ready-to-edit multi-page HTML/CSS/JavaScript portfolio site with an evergreen forest theme.
 
