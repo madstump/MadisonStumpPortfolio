@@ -1,7 +1,5 @@
 # Madison Stump Portfolio Website
 
-This is a ready-to-edit multi-page HTML/CSS/JavaScript portfolio site with an evergreen forest theme.
-
 ## Files included
 
 - `index.html` — Home page with intro, skill sections, portfolio paths, and current projects.
